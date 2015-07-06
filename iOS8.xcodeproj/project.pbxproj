@@ -6,11 +6,42 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		04454A9D1B4AA70C0089A6B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04454A731B4AA7090089A6B6;
+			remoteInfo = Calculator;
+		};
+		04454A9F1B4AA70C0089A6B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04454A881B4AA70A0089A6B6;
+			remoteInfo = CalculatorTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Calculator.xcodeproj; path = Calculator/Calculator.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		04454A631B4AA69A0089A6B6 = {
 			isa = PBXGroup;
 			children = (
+				04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		04454A991B4AA70A0089A6B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04454A9E1B4AA70C0089A6B6 /* Calculator.app */,
+				04454AA01B4AA70C0089A6B6 /* CalculatorTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -30,11 +61,34 @@
 			);
 			mainGroup = 04454A631B4AA69A0089A6B6;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04454A991B4AA70A0089A6B6 /* Products */;
+					ProjectRef = 04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04454A9E1B4AA70C0089A6B6 /* Calculator.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Calculator.app;
+			remoteRef = 04454A9D1B4AA70C0089A6B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04454AA01B4AA70C0089A6B6 /* CalculatorTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CalculatorTests.xctest;
+			remoteRef = 04454A9F1B4AA70C0089A6B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		04454A681B4AA69B0089A6B6 /* Debug */ = {
