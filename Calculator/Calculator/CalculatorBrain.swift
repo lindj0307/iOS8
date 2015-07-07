@@ -10,9 +10,6 @@ import Foundation
 
 class CalculatorBrain
 {
-    
-    
-    
     private enum Op: Printable {
         case Operand(Double)
         case UnaryOperation(String, Double ->Double)
