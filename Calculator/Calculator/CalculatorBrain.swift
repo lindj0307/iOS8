@@ -10,6 +10,8 @@ import Foundation
 
 class CalculatorBrain
 {
+    private var s = 0
+    
     private enum Op: Printable {
         case Operand(Double)
         case UnaryOperation(String, Double ->Double)
@@ -45,6 +47,7 @@ class CalculatorBrain
         knownOps["−"] = Op.BinaryOperation("−")  { $0 - $1}
         knownOps["√"] = Op.UnaryOperation("√", sqrt)
     }
+    
     
     private func evaluate(ops: [Op]) -> (result: Double?, remainingOps: [Op]) {
         if !ops.isEmpty {
