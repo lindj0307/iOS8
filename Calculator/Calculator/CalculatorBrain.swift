@@ -9,9 +9,7 @@
 import Foundation
 
 class CalculatorBrain
-{
-    private var s = 0
-    
+{   
     private enum Op: Printable {
         case Operand(Double)
         case UnaryOperation(String, Double ->Double)
