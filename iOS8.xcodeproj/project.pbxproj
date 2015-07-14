@@ -21,16 +21,32 @@
 			remoteGlobalIDString = 04454A881B4AA70A0089A6B6;
 			remoteInfo = CalculatorTests;
 		};
+		048803D71B555063000449D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048803D01B55505F000449D2 /* Happiness.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 048803AB1B55505F000449D2;
+			remoteInfo = Happiness;
+		};
+		048803D91B555063000449D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048803D01B55505F000449D2 /* Happiness.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 048803C01B55505F000449D2;
+			remoteInfo = HappinessTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Calculator.xcodeproj; path = Calculator/Calculator.xcodeproj; sourceTree = "<group>"; };
+		048803D01B55505F000449D2 /* Happiness.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Happiness.xcodeproj; path = Happiness/Happiness.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		04454A631B4AA69A0089A6B6 = {
 			isa = PBXGroup;
 			children = (
+				048803D01B55505F000449D2 /* Happiness.xcodeproj */,
 				04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */,
 			);
 			sourceTree = "<group>";
@@ -40,6 +56,15 @@
 			children = (
 				04454A9E1B4AA70C0089A6B6 /* Calculator.app */,
 				04454AA01B4AA70C0089A6B6 /* CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048803D11B55505F000449D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048803D81B555063000449D2 /* Happiness.app */,
+				048803DA1B555063000449D2 /* HappinessTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +91,10 @@
 					ProductGroup = 04454A991B4AA70A0089A6B6 /* Products */;
 					ProjectRef = 04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */;
 				},
+				{
+					ProductGroup = 048803D11B55505F000449D2 /* Products */;
+					ProjectRef = 048803D01B55505F000449D2 /* Happiness.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -86,6 +115,20 @@
 			fileType = wrapper.cfbundle;
 			path = CalculatorTests.xctest;
 			remoteRef = 04454A9F1B4AA70C0089A6B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		048803D81B555063000449D2 /* Happiness.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Happiness.app;
+			remoteRef = 048803D71B555063000449D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		048803DA1B555063000449D2 /* HappinessTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HappinessTests.xctest;
+			remoteRef = 048803D91B555063000449D2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
