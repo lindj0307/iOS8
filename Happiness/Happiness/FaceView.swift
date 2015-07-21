@@ -8,10 +8,20 @@
 
 import UIKit
 
-class FaceView: UIView {
+//sometimes we call these delegation protocol delegate,like FaceViewDelegate.
+protocol FaceViewDataSource: class {
+    //step1
+    func siminessForFaceView(sender: FaceView) -> Double?
     
+}
+
+@IBDesignable
+class FaceView: UIView {
+    @IBInspectable
     var lineWidth: CGFloat = 3 { didSet { setNeedsDisplay() } }
+    @IBInspectable
     var color: UIColor = UIColor.blueColor() { didSet { setNeedsDisplay() } }
+    @IBInspectable
     var scale: CGFloat = 0.90 { didSet { setNeedsDisplay() } }
     var faceCenter: CGPoint {
         return convertPoint(center, fromView: superview)
@@ -66,6 +76,9 @@ class FaceView: UIView {
         path.lineWidth = lineWidth
         return path
     }
+    
+    //step2
+    weak var dataSource: FaceViewDataSource?
 
     override func drawRect(rect: CGRect) {
         let facePath = UIBezierPath(arcCenter: faceCenter, radius: faceRadius, startAngle: 0, endAngle: CGFloat(2*M_PI), clockwise: true)
@@ -76,7 +89,8 @@ class FaceView: UIView {
         bezierPathForEye(.Left).stroke()
         bezierPathForEye(.Right).stroke()
         
-        let smiliness = -0.75
+        //step3
+        let smiliness = dataSource?.siminessForFaceView(self) ?? 0.0
         let smilePath = bazierPathForSmile(smiliness)
         smilePath.stroke()
     }

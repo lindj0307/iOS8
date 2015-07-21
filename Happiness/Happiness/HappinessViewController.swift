@@ -8,8 +8,35 @@
 
 import UIKit
 
-class HappinessViewController: UIViewController {
-
+class HappinessViewController: UIViewController ,FaceViewDataSource {
+    
+    @IBAction func changeHappniess(sender: UISlider) {
+        happniess = Int(sender.value)
+    }
+    
+    @IBOutlet weak var faceView: FaceView! {
+        didSet {
+            faceView.dataSource = self
+        }
+    }
+    
+    //this is model
+    var happniess: Int = 100 {
+        didSet{
+            happniess = min(max(happniess, 0),100)
+            updateUI()
+        }
+    }
+    
+    private func updateUI() {
+        faceView.setNeedsDisplay()
+    }
+    
+    func siminessForFaceView(sender: FaceView) -> Double? {
+        return Double(happniess-50)/50
+    }
+        
+        
     override func viewDidLoad() {
         super.viewDidLoad()
 
