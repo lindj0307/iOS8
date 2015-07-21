@@ -10,13 +10,34 @@ import UIKit
 
 class HappinessViewController: UIViewController ,FaceViewDataSource {
     
-    @IBAction func changeHappniess(sender: UISlider) {
-        happniess = Int(sender.value)
+//    @IBAction func changeHappniess(sender: UISlider) {
+//        happniess = Int(sender.value)
+//    }
+    
+    private struct Constants {
+        static let HappinessGestureScale: CGFloat = 4
+    }
+  
+    @IBAction func changeHappiness(gesture: UIPanGestureRecognizer) {
+        switch gesture.state {
+        case .Ended:fallthrough
+        case .Changed:
+            let translation = gesture.translationInView(faceView)
+            let happinessChange = -Int(translation.y / Constants.HappinessGestureScale)
+            if happinessChange != 0 {
+                happniess += happinessChange
+                gesture.setTranslation(CGPointZero, inView: faceView)
+            }
+        default:break
+        }
     }
     
     @IBOutlet weak var faceView: FaceView! {
         didSet {
             faceView.dataSource = self
+            //添加手势识别,这个是识别放大与缩小之类的手势   scale是FaceView里面的一个方法
+            faceView.addGestureRecognizer(UIPinchGestureRecognizer(target: faceView, action: "scale:"))
+//            faceView.addGestureRecognizer(UIPanGestureRecognizer(target: faceView, action: "changeHappiness:"))
         }
     }
     

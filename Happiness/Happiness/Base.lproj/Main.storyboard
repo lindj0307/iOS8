@@ -18,29 +18,16 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JXI-6r-3wZ" customClass="FaceView" customModule="Happiness" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="p8q-kB-RMr" colorLabel="IBBuiltInLabel-Red">
-                                        <rect key="frame" x="203" y="562" width="194" height="31"/>
-                                        <color key="tintColor" red="1" green="0.52954609779999995" blue="0.139509353" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="190" id="D4q-3I-eAf"/>
-                                            <constraint firstAttribute="height" constant="30" id="Xy9-fW-MP8"/>
-                                        </constraints>
-                                        <connections>
-                                            <action selector="changeHappniess:" destination="3wg-uf-4iU" eventType="valueChanged" id="5Rx-p5-wzw"/>
-                                        </connections>
-                                    </slider>
-                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="centerX" secondItem="p8q-kB-RMr" secondAttribute="centerX" id="LBF-sg-Y14"/>
-                                    <constraint firstAttribute="bottom" secondItem="p8q-kB-RMr" secondAttribute="bottom" constant="8" id="lSW-Oa-1Rx"/>
-                                </constraints>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
                                         <color key="value" red="1" green="0.52954609776631978" blue="0.13950935304028456" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wOH-Mb-14M" appends="YES" id="0UZ-hC-XBL"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -56,6 +43,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WBS-z1-kYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="wOH-Mb-14M">
+                    <connections>
+                        <action selector="changeHappiness:" destination="3wg-uf-4iU" id="7d0-sU-UNc"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="144" y="-190"/>
         </scene>
