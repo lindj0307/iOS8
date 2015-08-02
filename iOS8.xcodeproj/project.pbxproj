@@ -35,17 +35,33 @@
 			remoteGlobalIDString = 048803C01B55505F000449D2;
 			remoteInfo = HappinessTests;
 		};
+		04F77F5F1B6E33770001837A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F77F561B6E33740001837A /* Psychologist.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04F77F311B6E33740001837A;
+			remoteInfo = Psychologist;
+		};
+		04F77F611B6E33770001837A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F77F561B6E33740001837A /* Psychologist.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04F77F461B6E33740001837A;
+			remoteInfo = PsychologistTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Calculator.xcodeproj; path = Calculator/Calculator.xcodeproj; sourceTree = "<group>"; };
 		048803D01B55505F000449D2 /* Happiness.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Happiness.xcodeproj; path = Happiness/Happiness.xcodeproj; sourceTree = "<group>"; };
+		04F77F561B6E33740001837A /* Psychologist.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Psychologist.xcodeproj; path = Psychologist/Psychologist.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		04454A631B4AA69A0089A6B6 = {
 			isa = PBXGroup;
 			children = (
+				04F77F561B6E33740001837A /* Psychologist.xcodeproj */,
 				048803D01B55505F000449D2 /* Happiness.xcodeproj */,
 				04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */,
 			);
@@ -65,6 +81,15 @@
 			children = (
 				048803D81B555063000449D2 /* Happiness.app */,
 				048803DA1B555063000449D2 /* HappinessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F77F571B6E33740001837A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F77F601B6E33770001837A /* Psychologist.app */,
+				04F77F621B6E33770001837A /* PsychologistTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +119,10 @@
 				{
 					ProductGroup = 048803D11B55505F000449D2 /* Products */;
 					ProjectRef = 048803D01B55505F000449D2 /* Happiness.xcodeproj */;
+				},
+				{
+					ProductGroup = 04F77F571B6E33740001837A /* Products */;
+					ProjectRef = 04F77F561B6E33740001837A /* Psychologist.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -129,6 +158,20 @@
 			fileType = wrapper.cfbundle;
 			path = HappinessTests.xctest;
 			remoteRef = 048803D91B555063000449D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04F77F601B6E33770001837A /* Psychologist.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Psychologist.app;
+			remoteRef = 04F77F5F1B6E33770001837A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04F77F621B6E33770001837A /* PsychologistTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PsychologistTests.xctest;
+			remoteRef = 04F77F611B6E33770001837A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
