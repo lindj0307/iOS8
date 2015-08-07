@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 Anta. All rights reserved.
 //
 
-import UIKit
+import UIKit    
 
 //sometimes we call these delegation protocol delegate,like FaceViewDelegate.
 protocol FaceViewDataSource: class {
