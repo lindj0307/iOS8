@@ -10,7 +10,10 @@ import UIKit
 
 class ViewController: UIViewController
 {
+    @IBOutlet weak var loginField: UITextField!
     
+    @IBOutlet weak var loginField: UITextField!
+    @IBOutlet weak var loginField: UITextField!
     @IBOutlet weak var lbDisplay: UILabel!
     
     var userIsInTheMiddleOfTypingANumber: Bool = false

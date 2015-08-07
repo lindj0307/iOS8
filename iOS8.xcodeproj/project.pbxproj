@@ -35,6 +35,20 @@
 			remoteGlobalIDString = 048803C01B55505F000449D2;
 			remoteInfo = HappinessTests;
 		};
+		04CD22D01B74EADD00998BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04CD22A61B74EADA00998BC1;
+			remoteInfo = AutoLayout;
+		};
+		04CD22D21B74EADD00998BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04CD22BB1B74EADA00998BC1;
+			remoteInfo = AutoLayoutTests;
+		};
 		04F77F5F1B6E33770001837A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04F77F561B6E33740001837A /* Psychologist.xcodeproj */;
@@ -54,6 +68,7 @@
 /* Begin PBXFileReference section */
 		04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Calculator.xcodeproj; path = Calculator/Calculator.xcodeproj; sourceTree = "<group>"; };
 		048803D01B55505F000449D2 /* Happiness.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Happiness.xcodeproj; path = Happiness/Happiness.xcodeproj; sourceTree = "<group>"; };
+		04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AutoLayout.xcodeproj; path = AutoLayout/AutoLayout.xcodeproj; sourceTree = "<group>"; };
 		04F77F561B6E33740001837A /* Psychologist.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Psychologist.xcodeproj; path = Psychologist/Psychologist.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +76,7 @@
 		04454A631B4AA69A0089A6B6 = {
 			isa = PBXGroup;
 			children = (
+				04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */,
 				04F77F561B6E33740001837A /* Psychologist.xcodeproj */,
 				048803D01B55505F000449D2 /* Happiness.xcodeproj */,
 				04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */,
@@ -81,6 +97,15 @@
 			children = (
 				048803D81B555063000449D2 /* Happiness.app */,
 				048803DA1B555063000449D2 /* HappinessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CD22CC1B74EADA00998BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CD22D11B74EADD00998BC1 /* AutoLayout.app */,
+				04CD22D31B74EADD00998BC1 /* AutoLayoutTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +137,10 @@
 			mainGroup = 04454A631B4AA69A0089A6B6;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 04CD22CC1B74EADA00998BC1 /* Products */;
+					ProjectRef = 04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */;
+				},
 				{
 					ProductGroup = 04454A991B4AA70A0089A6B6 /* Products */;
 					ProjectRef = 04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */;
@@ -158,6 +187,20 @@
 			fileType = wrapper.cfbundle;
 			path = HappinessTests.xctest;
 			remoteRef = 048803D91B555063000449D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04CD22D11B74EADD00998BC1 /* AutoLayout.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AutoLayout.app;
+			remoteRef = 04CD22D01B74EADD00998BC1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04CD22D31B74EADD00998BC1 /* AutoLayoutTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AutoLayoutTests.xctest;
+			remoteRef = 04CD22D21B74EADD00998BC1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		04F77F601B6E33770001837A /* Psychologist.app */ = {
