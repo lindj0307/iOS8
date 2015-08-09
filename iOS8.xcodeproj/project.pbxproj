@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		040176471B7751E600D7894D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0401763A1B7751E400D7894D /* Smashtag.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 040176151B7751E300D7894D;
+			remoteInfo = Smashtag;
+		};
+		040176491B7751E600D7894D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0401763A1B7751E400D7894D /* Smashtag.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0401762A1B7751E400D7894D;
+			remoteInfo = SmashtagTests;
+		};
 		04454A9D1B4AA70C0089A6B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */;
@@ -66,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0401763A1B7751E400D7894D /* Smashtag.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Smashtag.xcodeproj; path = Smashtag/Smashtag.xcodeproj; sourceTree = "<group>"; };
 		04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Calculator.xcodeproj; path = Calculator/Calculator.xcodeproj; sourceTree = "<group>"; };
 		048803D01B55505F000449D2 /* Happiness.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Happiness.xcodeproj; path = Happiness/Happiness.xcodeproj; sourceTree = "<group>"; };
 		04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AutoLayout.xcodeproj; path = AutoLayout/AutoLayout.xcodeproj; sourceTree = "<group>"; };
@@ -73,9 +88,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		0401763B1B7751E400D7894D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040176481B7751E600D7894D /* Smashtag.app */,
+				0401764A1B7751E600D7894D /* SmashtagTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		04454A631B4AA69A0089A6B6 = {
 			isa = PBXGroup;
 			children = (
+				0401763A1B7751E400D7894D /* Smashtag.xcodeproj */,
 				04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */,
 				04F77F561B6E33740001837A /* Psychologist.xcodeproj */,
 				048803D01B55505F000449D2 /* Happiness.xcodeproj */,
@@ -153,6 +178,10 @@
 					ProductGroup = 04F77F571B6E33740001837A /* Products */;
 					ProjectRef = 04F77F561B6E33740001837A /* Psychologist.xcodeproj */;
 				},
+				{
+					ProductGroup = 0401763B1B7751E400D7894D /* Products */;
+					ProjectRef = 0401763A1B7751E400D7894D /* Smashtag.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -161,6 +190,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		040176481B7751E600D7894D /* Smashtag.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Smashtag.app;
+			remoteRef = 040176471B7751E600D7894D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0401764A1B7751E600D7894D /* SmashtagTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SmashtagTests.xctest;
+			remoteRef = 040176491B7751E600D7894D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		04454A9E1B4AA70C0089A6B6 /* Calculator.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
