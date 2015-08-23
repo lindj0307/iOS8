@@ -77,6 +77,20 @@
 			remoteGlobalIDString = 04F77F461B6E33740001837A;
 			remoteInfo = PsychologistTests;
 		};
+		D4B62E171B898E750070E1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B62E0E1B898E740070E1AC /* Dropit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4B62DE91B898E740070E1AC;
+			remoteInfo = Dropit;
+		};
+		D4B62E191B898E750070E1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B62E0E1B898E740070E1AC /* Dropit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4B62DFE1B898E740070E1AC;
+			remoteInfo = DropitTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +99,7 @@
 		048803D01B55505F000449D2 /* Happiness.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Happiness.xcodeproj; path = Happiness/Happiness.xcodeproj; sourceTree = "<group>"; };
 		04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AutoLayout.xcodeproj; path = AutoLayout/AutoLayout.xcodeproj; sourceTree = "<group>"; };
 		04F77F561B6E33740001837A /* Psychologist.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Psychologist.xcodeproj; path = Psychologist/Psychologist.xcodeproj; sourceTree = "<group>"; };
+		D4B62E0E1B898E740070E1AC /* Dropit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Dropit.xcodeproj; path = Dropit/Dropit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -100,6 +115,7 @@
 		04454A631B4AA69A0089A6B6 = {
 			isa = PBXGroup;
 			children = (
+				D4B62E0E1B898E740070E1AC /* Dropit.xcodeproj */,
 				0401763A1B7751E400D7894D /* Smashtag.xcodeproj */,
 				04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */,
 				04F77F561B6E33740001837A /* Psychologist.xcodeproj */,
@@ -144,6 +160,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D4B62E0F1B898E740070E1AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B62E181B898E750070E1AC /* Dropit.app */,
+				D4B62E1A1B898E750070E1AC /* DropitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
@@ -169,6 +194,10 @@
 				{
 					ProductGroup = 04454A991B4AA70A0089A6B6 /* Products */;
 					ProjectRef = 04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */;
+				},
+				{
+					ProductGroup = D4B62E0F1B898E740070E1AC /* Products */;
+					ProjectRef = D4B62E0E1B898E740070E1AC /* Dropit.xcodeproj */;
 				},
 				{
 					ProductGroup = 048803D11B55505F000449D2 /* Products */;
@@ -258,6 +287,20 @@
 			fileType = wrapper.cfbundle;
 			path = PsychologistTests.xctest;
 			remoteRef = 04F77F611B6E33770001837A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B62E181B898E750070E1AC /* Dropit.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Dropit.app;
+			remoteRef = D4B62E171B898E750070E1AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B62E1A1B898E750070E1AC /* DropitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DropitTests.xctest;
+			remoteRef = D4B62E191B898E750070E1AC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
