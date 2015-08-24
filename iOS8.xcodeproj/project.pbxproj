@@ -77,6 +77,34 @@
 			remoteGlobalIDString = 04F77F461B6E33740001837A;
 			remoteInfo = PsychologistTests;
 		};
+		D42281FC1B8B468C00E7C28F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D42281EB1B8B468C00E7C28F /* Trax.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D42281C61B8B468B00E7C28F;
+			remoteInfo = Trax;
+		};
+		D42281FE1B8B468C00E7C28F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D42281EB1B8B468C00E7C28F /* Trax.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D42281DB1B8B468C00E7C28F;
+			remoteInfo = TraxTests;
+		};
+		D46062F41B8B4E7B005C091A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46062ED1B8B4E7A005C091A /* Bouncer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D46062C81B8B4E7A005C091A;
+			remoteInfo = Bouncer;
+		};
+		D46062F61B8B4E7B005C091A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46062ED1B8B4E7A005C091A /* Bouncer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D46062DD1B8B4E7A005C091A;
+			remoteInfo = BouncerTests;
+		};
 		D4B62E171B898E750070E1AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D4B62E0E1B898E740070E1AC /* Dropit.xcodeproj */;
@@ -99,6 +127,8 @@
 		048803D01B55505F000449D2 /* Happiness.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Happiness.xcodeproj; path = Happiness/Happiness.xcodeproj; sourceTree = "<group>"; };
 		04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AutoLayout.xcodeproj; path = AutoLayout/AutoLayout.xcodeproj; sourceTree = "<group>"; };
 		04F77F561B6E33740001837A /* Psychologist.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Psychologist.xcodeproj; path = Psychologist/Psychologist.xcodeproj; sourceTree = "<group>"; };
+		D42281EB1B8B468C00E7C28F /* Trax.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Trax.xcodeproj; path = Trax/Trax.xcodeproj; sourceTree = "<group>"; };
+		D46062ED1B8B4E7A005C091A /* Bouncer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bouncer.xcodeproj; path = Bouncer/Bouncer.xcodeproj; sourceTree = "<group>"; };
 		D4B62E0E1B898E740070E1AC /* Dropit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Dropit.xcodeproj; path = Dropit/Dropit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +145,8 @@
 		04454A631B4AA69A0089A6B6 = {
 			isa = PBXGroup;
 			children = (
+				D46062ED1B8B4E7A005C091A /* Bouncer.xcodeproj */,
+				D42281EB1B8B468C00E7C28F /* Trax.xcodeproj */,
 				D4B62E0E1B898E740070E1AC /* Dropit.xcodeproj */,
 				0401763A1B7751E400D7894D /* Smashtag.xcodeproj */,
 				04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */,
@@ -160,6 +192,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D42281EC1B8B468C00E7C28F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42281FD1B8B468C00E7C28F /* Trax.app */,
+				D42281FF1B8B468C00E7C28F /* TraxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46062EE1B8B4E7A005C091A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46062F51B8B4E7B005C091A /* Bouncer.app */,
+				D46062F71B8B4E7B005C091A /* BouncerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D4B62E0F1B898E740070E1AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +242,10 @@
 					ProjectRef = 04CD22CB1B74EADA00998BC1 /* AutoLayout.xcodeproj */;
 				},
 				{
+					ProductGroup = D46062EE1B8B4E7A005C091A /* Products */;
+					ProjectRef = D46062ED1B8B4E7A005C091A /* Bouncer.xcodeproj */;
+				},
+				{
 					ProductGroup = 04454A991B4AA70A0089A6B6 /* Products */;
 					ProjectRef = 04454A981B4AA70A0089A6B6 /* Calculator.xcodeproj */;
 				},
@@ -210,6 +264,10 @@
 				{
 					ProductGroup = 0401763B1B7751E400D7894D /* Products */;
 					ProjectRef = 0401763A1B7751E400D7894D /* Smashtag.xcodeproj */;
+				},
+				{
+					ProductGroup = D42281EC1B8B468C00E7C28F /* Products */;
+					ProjectRef = D42281EB1B8B468C00E7C28F /* Trax.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -287,6 +345,34 @@
 			fileType = wrapper.cfbundle;
 			path = PsychologistTests.xctest;
 			remoteRef = 04F77F611B6E33770001837A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D42281FD1B8B468C00E7C28F /* Trax.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Trax.app;
+			remoteRef = D42281FC1B8B468C00E7C28F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D42281FF1B8B468C00E7C28F /* TraxTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TraxTests.xctest;
+			remoteRef = D42281FE1B8B468C00E7C28F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D46062F51B8B4E7B005C091A /* Bouncer.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Bouncer.app;
+			remoteRef = D46062F41B8B4E7B005C091A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D46062F71B8B4E7B005C091A /* BouncerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BouncerTests.xctest;
+			remoteRef = D46062F61B8B4E7B005C091A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		D4B62E181B898E750070E1AC /* Dropit.app */ = {
