@@ -36,6 +36,10 @@
 		04CD22BB1B74EADA00998BC1 /* AutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CD22C01B74EADA00998BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04CD22C11B74EADA00998BC1 /* AutoLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutTests.swift; sourceTree = "<group>"; };
+		D4E8E46F1B987945002AEB8E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D4E8E4701B98794A002AEB8E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		D4E8E4711B987957002AEB8E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		D4E8E4721B987964002AEB8E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +244,10 @@
 			isa = PBXVariantGroup;
 			children = (
 				04CD22B01B74EADA00998BC1 /* Base */,
+				D4E8E46F1B987945002AEB8E /* zh-Hans */,
+				D4E8E4701B98794A002AEB8E /* fr */,
+				D4E8E4711B987957002AEB8E /* ko */,
+				D4E8E4721B987964002AEB8E /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -411,6 +419,7 @@
 				04CD22C71B74EADA00998BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04CD22C81B74EADA00998BC1 /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				04CD22CA1B74EADA00998BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

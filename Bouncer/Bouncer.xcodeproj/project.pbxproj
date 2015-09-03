@@ -14,6 +14,7 @@
 		D46062D81B8B4E7A005C091A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D46062D61B8B4E7A005C091A /* LaunchScreen.xib */; };
 		D46062E41B8B4E7A005C091A /* BouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46062E31B8B4E7A005C091A /* BouncerTests.swift */; };
 		D46063051B8B4EBE005C091A /* BouncerBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46063041B8B4EBE005C091A /* BouncerBehavior.swift */; };
+		D4E8E4741B98812B002AEB8E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4E8E4731B98812B002AEB8E /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D46062E21B8B4E7A005C091A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46062E31B8B4E7A005C091A /* BouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncerTests.swift; sourceTree = "<group>"; };
 		D46063041B8B4EBE005C091A /* BouncerBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncerBehavior.swift; sourceTree = "<group>"; };
+		D4E8E4731B98812B002AEB8E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				D46062D41B8B4E7A005C091A /* Images.xcassets */,
 				D46062D61B8B4E7A005C091A /* LaunchScreen.xib */,
 				D46062CB1B8B4E7A005C091A /* Supporting Files */,
+				D4E8E4731B98812B002AEB8E /* Settings.bundle */,
 			);
 			path = Bouncer;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E8E4741B98812B002AEB8E /* Settings.bundle in Resources */,
 				D46062D31B8B4E7A005C091A /* Main.storyboard in Resources */,
 				D46062D81B8B4E7A005C091A /* LaunchScreen.xib in Resources */,
 				D46062D51B8B4E7A005C091A /* Images.xcassets in Resources */,
@@ -415,6 +419,7 @@
 				D46062E91B8B4E7A005C091A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D46062EA1B8B4E7A005C091A /* Build configuration list for PBXNativeTarget "BouncerTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				D46062EC1B8B4E7A005C091A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

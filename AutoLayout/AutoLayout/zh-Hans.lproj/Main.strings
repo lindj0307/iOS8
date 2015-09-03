@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Change Security"; ObjectID = "2AU-C8-ESK"; */
+"2AU-C8-ESK.normalTitle" = "Change Security";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "CLR-xd-LMc"; */
+"CLR-xd-LMc.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "ccG-v4-Tga"; */
+"ccG-v4-Tga.text" = "Username";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "pFf-Sh-Jdd"; */
+"pFf-Sh-Jdd.text" = "Password";
